@@ -1,3 +1,7 @@
+// A note on compiling
+// gcc -o helloworld ./01_HelloWorld.c
+// ./helloworld
+
 #include <stdio.h>
 
 int main(void)
