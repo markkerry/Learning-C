@@ -1,5 +1,5 @@
 // A note on compiling
-// gcc -o helloworld ./01_HelloWorld.c
+// gcc -o helloworld ./01_helloworld.c
 // ./helloworld
 
 #include <stdio.h>
