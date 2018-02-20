@@ -6,11 +6,11 @@ image:
 install:
 - cmd: call "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build\vcvars32.bat"
 # - ps: gci *.c | % {cl $($_.Fullname)}
-  
-build:
 - cmd: cl 01_helloworld.c
 - cmd: cl 02_printf_char_int_float.c
 - cmd: cl 03_For.c
 - cmd: cl 04_variables_constant.c 
+  
+build: false
 
 test_script:
