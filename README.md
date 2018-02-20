@@ -1,3 +1,6 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/n270qj9742tycb5b/branch/master?svg=true)](https://ci.appveyor.com/project/markkerry/learning-c/branch/master)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/markkerry/Learning-C/blob/master/LICENSE)
+
 # Learning-C
 Basics of the C programming language
 
