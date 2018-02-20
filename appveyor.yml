@@ -1,0 +1,9 @@
+version: 1.0.{build}
+
+install:
+  - cmd: cinst cmake -version 3.0.2 -y
+  - cmd: cmake --version
+  
+build: false
+
+test_script:
