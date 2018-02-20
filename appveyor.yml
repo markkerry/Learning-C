@@ -5,7 +5,8 @@ image:
 
 install:
   - cmd: call "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build\vcvars32.bat"
-  - cmd: cl 04_variables_constant.c
+  #- cmd: cl 04_variables_constant.c
+  - ps: gci *.c | % {cl $($_.Fullname)}
   
 build: false
 
