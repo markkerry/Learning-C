@@ -5,8 +5,6 @@ Basics of the C programming language
 
 `gcc -o test ./test.c`
 
----
-
 ## Helloworld
 ``` C
 #include <stdio.h>
@@ -18,8 +16,6 @@ int main(void)
     return 0;
 }
 ```
-
----
 
 ## The printf() function
 main() is a function, printf() is a function and return is a command.
@@ -38,5 +34,3 @@ main(void)
     return 0;
 }
 ```
-
----
