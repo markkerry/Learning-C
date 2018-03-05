@@ -4,6 +4,23 @@
 # Learning-C
 Basics of the C programming language
 
+## Key
+| Examples                | Description               |
+|-------------------------|---------------------------|
+| #include #define        | Preprocessor Directives   |
+| stdio.h math.h string.h | Header Files              |
+| main() printf()         | Functions                 |
+| return while float      | Commands                  |
+| if elseif else          | Statements                |
+| %d %f %c %s             | Conversion Characters     |
+| \n \a \t                | Escape Sequences          |
+| && !                    | Logical Operators         |
+| == > < >= !=            | Relational Operators      |
+| &  *                    | Pointer Operators         |
+| *= /= %= += -=          | Compound Operators        |
+| /* This is */           | Comments                  |
+| (5 * 2 - 6)             | Expression                |
+
 ## Compiling C code
 
 `gcc -o test ./test.c`
@@ -52,7 +69,7 @@ int main(void)
 }
 ```
 
-## Variables and Contants
+## Variables and Constants
 ``` C
 #include <stdio.h>
 #include <string.h>
@@ -64,6 +81,7 @@ int n = 0;      /* Global Variables - before the main() function */
 char x = 'X';
 
 int main(void)
+
 {
     long int l = 500000;    /* Local Variables - in the main() function */
     float f = 0.0002;
@@ -79,5 +97,30 @@ int main(void)
     /* Code goes here */
     
     return 0;
+}
+```
+
+## The if, else Statements
+The if statement uses relational operators to check whether something is true and if so, executes code. If the statement is false the else statement to executes different code. 
+``` C
+int b;
+int b;
+
+printf("Please enter a positive number: ");
+scanf("%d", &a);
+printf("Please enter another positive number: ");
+scanf("%d", &b);
+    
+if (a < b)
+{
+    printf("%d is less than %d\n", a, b);
+}
+else if (a == b) 
+{
+    printf("%d is equal to %d\n", a, b);    
+}
+else
+{
+    printf("%d is more than %d\n", a, b);
 }
 ```

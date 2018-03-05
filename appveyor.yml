@@ -10,6 +10,7 @@ install:
 - cmd: cl 02_printf_char_int_float.c
 - cmd: cl 03_For.c
 - cmd: cl 04_variables_constant.c 
+- cmd: cl 05_if_else_statements.c
 # - cmd: FOR /F %f in ('dir *.c /a-d /b /o:-d') do cl %f
 
 build: false
