@@ -1,4 +1,11 @@
-version: 1.0.{build}
+version: 1.1.{build}
+
+# Skip on updates to the readme.
+# We can force this by adding [skip ci] or [ci skip] anywhere in commit message 
+skip_commits:
+  files:
+    - README.md
+  message: /updated readme.*|update readme.*s|update docs.*|update version.*|update appveyor.*/
 
 image:
 - Visual Studio 2017

@@ -1,10 +1,12 @@
+# Learning-C
+
 [![Build status](https://ci.appveyor.com/api/projects/status/n270qj9742tycb5b/branch/master?svg=true)](https://ci.appveyor.com/project/markkerry/learning-c/branch/master)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/markkerry/Learning-C/blob/master/LICENSE)
 
-# Learning-C
 Basics of the C programming language
 
 ## Key
+
 | Examples                | Description               |
 |-------------------------|---------------------------|
 | #include #define        | Preprocessor Directives   |
@@ -26,6 +28,7 @@ Basics of the C programming language
 `gcc -o test ./test.c`
 
 ## Helloworld
+
 ``` C
 #include <stdio.h>
 
@@ -38,9 +41,11 @@ int main(void)
 ```
 
 ## The printf() function
+
 main() is a function, printf() is a function and return is a command.
 Notice a char requires single quotes '', an int or float does not.
 And a string requires double quotes ""
+
 ``` C
 // prints a character and numbers
 #include <stdio.h>
@@ -56,6 +61,7 @@ main(void)
 ```
 
 ## For loop
+
 ``` C
 #include <stdio.h>
 // Prints "This is a Test!" 10 times
@@ -70,6 +76,7 @@ int main(void)
 ```
 
 ## Variables and Constants
+
 ``` C
 #include <stdio.h>
 #include <string.h>
@@ -101,7 +108,9 @@ int main(void)
 ```
 
 ## The if, else Statements
+
 The if statement uses relational operators to check whether something is true and if so, executes code. If the statement is false the else statement to executes different code. 
+
 ``` C
 int b;
 int b;
@@ -115,12 +124,26 @@ if (a < b)
 {
     printf("%d is less than %d\n", a, b);
 }
-else if (a == b) 
+else if (a == b)
 {
-    printf("%d is equal to %d\n", a, b);    
+    printf("%d is equal to %d\n", a, b);
 }
 else
 {
     printf("%d is more than %d\n", a, b);
+}
+```
+
+## Logical Operators
+
+```C
+if ((num >= 10) && (num <= 100))
+{
+    // num is between 10 and 100
+}
+
+if ((num == 0) || (num2 > 1000))
+{
+    // do something
 }
 ```
