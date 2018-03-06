@@ -5,7 +5,7 @@
 
 main()
 {
-    int b;
+    int a;
     int b;
 
     printf("Please enter a positive number: ");
