@@ -27,15 +27,15 @@ main()
     }
     
     // Using Logical Operators
-    int num;
-    int num2;
+    int num = 73;
+    int num2 = 21;
 
-    if (num >= 10) && (num <= 100)
+    if ((num >= 10) && (num <= 100))
     {
         // num is between 10 and 100
     }
 
-    if (num == 0) || (num2 > 1000)
+    if ((num == 0) || (num2 > 1000))
     {
         // do something
     }
